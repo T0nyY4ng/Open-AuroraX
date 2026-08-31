@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "aurora",
+  "version": "X",
+  "name": "Aurora",
+  "description": "升级的爱来自RSR",
+  "authors": [
+    "X1ay eternity2333(Q6E) AlexJonny 3SB RSR"
+  ],
+  "contact": {
+    "repo": "",
+    "discord": ""
+  },
+  "icon": "assets/spacex/logo.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "espada.spacex.aurora.Aurora"
+    ]
+  },
+  "mixins": [
+    "aurora.json"
+  ],
+  "accessWidener": "aurora.accesswidener",
+  "custom": {
+    "meteor-client:color": "185,185,185"
+  },
+  "depends": {
+    "java": ">=17",
+    "minecraft": ">=1.21.1",
+    "meteor-client": "*"
+  }
+}

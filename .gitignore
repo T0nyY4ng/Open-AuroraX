@@ -1,0 +1,17 @@
+# Gradle
+.gradle/
+build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Minecraft run directory
+run/
+
+# Vendored third-party jars
+libs/*.jar
+
+# Logs
+*.log
